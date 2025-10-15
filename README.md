@@ -69,10 +69,6 @@ Regénérer les pages et lancer le serveur enchaîné:
 python app.py; python -m http.server 8000
 ```
 
-## Dépannage
-- "Module not found" → réactivez l'environnement: `.\.venv\Scripts\Activate.ps1` puis réinstallez.
-- Pas d'Internet → le téléchargement du CSV échouera; vérifiez la connexion et relancez `python app.py`.
-- Port 8000 déjà utilisé → essayez `python -m http.server 8001` puis ouvrez `http://localhost:8001/...`.
 
 ## Licence
 Projet pédagogique. Utilisation libre à des fins d'apprentissage.
